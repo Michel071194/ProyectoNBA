@@ -11,7 +11,7 @@
 }
 
 .carousel-inner{
-    height: 800px;
+    height: 650px;
    
 }
 
@@ -29,9 +29,61 @@
     margin: 0%;
     padding: 0%;
     background-color: black;
-    height: 800px;
+    height: 650px;
     width: 100%;
     display: flex;
     display: inline-flex;
     flex-direction: row;
+}
+
+.titulo {
+    padding: 5px 10px 5px 10px;
+}
+
+.navStyle {
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    margin-right: 90px;
+   
+}
+
+.marginbutton{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.marginUnico {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.carousel-inner2 {
+    height: 450px;
+    justify-content: center;
+    padding: 40px 10px 30px 10px;
+   
+   
+}
+
+.conteinerVideos {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    border: blue solid 7px;
+}
+
+@media screen and (max-width:460px) {
+    .conteinerVideos {
+        display: flex;
+        flex-direction:column;
+        height: 100%;
+        color: aliceblue;
+       
+
+    }
+    .carousel-inner2{
+        height: 600px;
+    }
+    
 }
