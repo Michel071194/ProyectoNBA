@@ -92,6 +92,43 @@
     .carousel-inner2{
         height: 600px;
     }
+    .navStyle{
+        width: 100%;
+
+    }
+    .titulo{
+        font-size: 50px;
+    }
+    .titulo1{
+        font-size: 15%;
+    }
+    .contenidoFooters2{
+        margin: 10px 0px 10px 27%
+    }
+    
+}
+@media screen and (max-width:390px) {
+    .conteinerVideos {
+        display: flex;
+        flex-direction:column;
+        height: 100%;
+        color: aliceblue;
+    
+    }
+    .carousel-inner2{
+        height: 600px;
+    }
+    .navStyle{
+        width: 100%;
+
+    }
+    .titulo{
+        font-size: 50px;
+    }
+   
+    .body{
+        height: 100%;
+    }
     
 }
 
@@ -111,10 +148,32 @@
 
 .titulosSection3{
     font-family:"Docallisme" ;
-    font-size: 50px;
+    font-size: 40px;
     font-display: 42px;
     margin-top: 30px;
    font-stretch: expanded;
    line-height: 55px;
    
+}
+
+
+.textoFooter {
+    margin-left: 50px;
+}
+
+.marginLeyendas{
+    margin-top: 7px;
+}
+
+.contenidoFooters{
+    margin: 10px 0px 10px 40%
+}
+
+.contenidoFooters2{
+    margin: 10px 0px 10px 33%
+}
+
+.titulo1{
+    font-size: 30%;
+
 }
