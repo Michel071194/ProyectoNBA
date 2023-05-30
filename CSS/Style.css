@@ -23,6 +23,7 @@
     padding: 30px;
     justify-content: space-evenly;
     
+    
 }
 
 .conteiner_img3{
@@ -38,6 +39,9 @@
 
 .titulo {
     padding: 5px 10px 5px 10px;
+    font-family: "Docallisme";
+    font-size: 70px;
+   
 }
 
 .navStyle {
@@ -55,6 +59,9 @@
 .marginUnico {
     margin-bottom: 20px;
     margin-top: 30px;
+}
+.marginSec2Col2 {
+    margin-bottom: 40px;
 }
 
 .carousel-inner2 {
@@ -86,4 +93,28 @@
         height: 600px;
     }
     
+}
+
+@font-face {
+    font-family: "Docallisme" ;
+    src: url(../Fonst/DOCALLISME\ ON\ STREET.ttf);
+    font-family: ;
+}
+
+.titulosSection2{
+    font-family:"Docallisme" ;
+    font-size: 40px;
+   font-stretch: expanded;
+   line-height: 35px;
+   
+}
+
+.titulosSection3{
+    font-family:"Docallisme" ;
+    font-size: 50px;
+    font-display: 42px;
+    margin-top: 30px;
+   font-stretch: expanded;
+   line-height: 55px;
+   
 }
