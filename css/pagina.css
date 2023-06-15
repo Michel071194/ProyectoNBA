@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Docallisme";
-  src: url(../mi-repositorio/Fonst/DOCALLISME\ ON\ STREET.ttf);
+  src: url(../Fonst/DOCALLISME\ ON\ STREET.ttf);
 }
 .animacion__logo {
   animation: pulse infinite 2.4s alternate;
@@ -183,25 +183,57 @@
   grid-template-areas: "div div div";
 }
 .campeones_padre__sec1__text {
+  background-color: rgb(230, 169, 169);
+  height: 252px;
   padding: 5px;
   text-align: justify;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.campeones_padre__sec1__text--title {
+  background-color: rgb(236, 154, 154);
+  margin-bottom: 0px;
+}
 .campeones_padre__sec1__video {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 576px) {
   .campeones_padre {
     background-color: red;
+    padding-left: 5px;
+    width: 100%;
     height: 3000px;
-    width: 460px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "section" "section" "section";
+  }
+  .campeones_padre__sec1 {
+    background-color: rgb(125, 2, 2);
+    width: 100%;
+    height: 820px;
+    margin-left: 5px;
+    padding-top: none;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 30% 30% 30%;
-    grid-template-areas: "section" "section" "section";
-    display: block;
+    grid-template-areas: "div" "div" "div";
+  }
+  .campeones_padre__sec1__video {
+    margin-left: 0px;
+  }
+  .campeones_padre__sec1 .tamanio__imgs {
+    width: 100%;
+  }
+  .campeones_padre__sec1 .tamanio__vid {
+    margin: none;
+    width: 100%;
+    height: 325px;
+    padding-right: 0px;
+    padding-top: 38px;
+    padding-left: -10px;
+    flex-wrap: wrap;
   }
 }
 .titulo__section2 {
@@ -236,7 +268,7 @@
 }
 
 .campeones_padre__sec2 {
-  background-color: white;
+  background-color: blue;
   height: 300px;
   width: 1305px;
   margin-bottom: 30px;
@@ -259,6 +291,36 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 576px) {
+  .campeones_padre__sec2 {
+    background-color: rgb(2, 53, 125);
+    width: 100%;
+    height: 820px;
+    margin-left: 5px;
+    padding-top: none;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "div" "div" "div";
+  }
+  .campeones_padre__sec2__video {
+    margin-left: 0px;
+  }
+  .campeones_padre__sec2 .tamanio__imgs {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .campeones_padre__sec2 .tamanio__vid--2 {
+    margin: none;
+    width: 100%;
+    height: 325px;
+    padding-right: 0px;
+    padding-top: 28px;
+    padding-left: -10px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+}
 .carousel-inner2 {
   height: 450px;
   justify-content: center;
@@ -315,6 +377,36 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 576px) {
+  .campeones_padre__sec3 {
+    background-color: rgb(10, 125, 10);
+    width: 100%;
+    height: 820px;
+    margin-left: 5px;
+    padding-top: none;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "div" "div" "div";
+  }
+  .campeones_padre__sec3__video {
+    margin-left: 0px;
+  }
+  .campeones_padre__sec3 .tamanio__imgs {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .campeones_padre__sec3 .tamanio__vid--3 {
+    margin: none;
+    width: 100%;
+    height: 325px;
+    padding-right: 0px;
+    padding-top: 28px;
+    padding-left: -10px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+}
 .formatofooter {
   text-align: center;
   font-family: fantasy;
