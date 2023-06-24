@@ -15,8 +15,8 @@
     transform: scale(0.5);
   }
   100% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 }
 
@@ -37,6 +37,14 @@
   color: red;
 }
 
+@media screen and (max-width: 576px) {
+  .titulo__header {
+    font-size: 70px;
+  }
+  .titulo__header--t-grandes {
+    font-size: 55px;
+  }
+}
 #carouselSection {
   width: 100%;
 }
@@ -98,8 +106,9 @@
   grid-template-areas: "header header" "div     div" "section section" "section section" "section section" "section section";
 }
 .equipos__modelo {
-  margin-left: 50px;
-  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
 }
 .equipos__titulo {
   text-align: center;
@@ -174,7 +183,7 @@
 .campeones_padre__sec1 {
   background-color: rgb(125, 2, 2);
   height: 300px;
-  width: 1305px;
+  width: 98%;
   margin-bottom: 30px;
   padding: 5px;
   display: grid;
@@ -184,15 +193,16 @@
 }
 .campeones_padre__sec1__text {
   background-color: rgb(230, 169, 169);
-  height: 252px;
+  height: 214px;
   padding: 5px;
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .campeones_padre__sec1__text--title {
   background-color: rgb(236, 154, 154);
   margin-bottom: 0px;
+  text-align: center;
 }
 .campeones_padre__sec1__video {
   margin-left: 10px;
@@ -236,6 +246,32 @@
     flex-wrap: wrap;
   }
 }
+.back-sec1 {
+  width: 100%;
+}
+
+.fond-mvp {
+  height: 100%;
+}
+
+.backg-sec1 {
+  width: 95%;
+  height: 300px;
+  background-color: rgba(185, 11, 11, 0.715);
+  margin: 0px 15px 20px 30px;
+  padding: 5px;
+}
+.backg-sec1__text {
+  text-align: justify;
+  font-size: 14px;
+}
+.backg-sec1__text--tit-bg1 {
+  font-family: "Docallisme";
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .titulo__section2 {
   font-family: "Docallisme";
   font-size: 50px;
@@ -270,7 +306,7 @@
 .campeones_padre__sec2 {
   background-color: blue;
   height: 300px;
-  width: 1305px;
+  width: 98%;
   margin-bottom: 30px;
   padding: 5px;
   display: grid;
@@ -281,7 +317,7 @@
 .campeones_padre__sec2__text {
   padding: 10px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .campeones_padre__sec2__text--title {
@@ -318,9 +354,42 @@
     padding-top: 28px;
     padding-left: -10px;
     flex-wrap: wrap;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 }
+.padre-premio {
+  height: 900px;
+  width: 100%;
+  background-color: rgb(209, 180, 100);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-areas: "section div" "section div" "section div";
+}
+
+.conteiner-premio {
+  height: 700px;
+  width: 380px;
+  background-color: rgba(23, 89, 232, 0.929);
+  padding: 40px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.conteiner-premio__tit-premio {
+  font-family: "Docallisme";
+  text-align: center;
+  color: white;
+}
+
+.conteiner-tarj-mvp {
+  height: 830px;
+  width: 95%;
+  background-color: rgb(23, 132, 95);
+  margin-top: 30px;
+  padding: 10px;
+}
+
 .carousel-inner2 {
   height: 450px;
   justify-content: center;
@@ -352,7 +421,7 @@
 .campeones_padre__sec3 {
   background-color: rgb(15, 120, 15);
   height: 300px;
-  width: 1305px;
+  width: 98%;
   margin-bottom: 30px;
   padding: 5px;
   display: grid;
@@ -365,7 +434,7 @@
   margin-bottom: 3px;
   padding: 10px;
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .campeones_padre__sec3__text--title {
@@ -416,6 +485,10 @@
 }
 .formatofooter--aria_label {
   justify-content: center;
+}
+.formatofooter__tamanio-f {
+  width: 100%;
+  height: 100px;
 }
 
 /*# sourceMappingURL=pagina.css.map */

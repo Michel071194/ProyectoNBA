@@ -22,8 +22,8 @@
             transform: scale(0.5);
         }
         100% {
-            -webkit-transform: scale(1.5);
-            transform: scale(1.5)
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2)
         }
     }
 }
@@ -42,5 +42,16 @@
 
 .nav:hover {
     color: red;
+    
+}
+
+@media screen and (max-width: 576px) {
+    .titulo__header {
+        font-size: 70px;
+        &--t-grandes {
+            font-size: 55px;
+        }
+       
+    }
     
 }

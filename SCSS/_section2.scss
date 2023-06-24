@@ -35,7 +35,7 @@
 .campeones_padre__sec2{
     background-color: blue;
     height: 300px;
-    width: 1305px;
+    width: 98%;
     margin-bottom: 30px;
     padding: 5px;
         display: grid;
@@ -46,7 +46,7 @@
         &__text {
             padding: 10px;
             text-align: justify;
-            font-size: 20px;
+            font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;
             &--title {
                 text-align: center;
@@ -98,7 +98,7 @@
                    padding-top: 28px;
                    padding-left: -10px;
                    flex-wrap: wrap;
-                   margin-bottom: 5px;
+                   margin-bottom: 20px;
                 }
                     
                 }
@@ -109,5 +109,44 @@
             
         } 
     
+}
+
+
+.padre-premio {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(209, 180, 100);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-areas: 
+    "section div"
+    "section div"
+    "section div"
+    ;
+   
+}
+.conteiner-premio {
+ height: 700px;
+ width: 380px;
+ background-color: rgba(23, 89, 232, 0.929);
+ padding: 40px;
+ justify-content: center;
+ margin-left: 30px;
+ margin-top: 30px;
+
+ &__tit-premio {
+    font-family: "Docallisme";
+    text-align: center;
+    color: white;
+ }
+}
+
+.conteiner-tarj-mvp {
+    height: 830px;
+    width: 95%;
+    background-color: rgb(23, 132, 95);
+    margin-top: 30px;
+    padding: 10px;
 }
 
