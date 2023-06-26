@@ -112,9 +112,12 @@
 }
 .equipos__titulo {
   text-align: center;
-  font-family: "Docallisme";
+  font-family: "Basketball";
   font-size: 70px;
   margin-bottom: 10px;
+}
+.equipos__titulo--tarjetas {
+  font-family: "Basketball";
 }
 .equipos--marg_top {
   margin-top: 50px;
@@ -193,16 +196,18 @@
 }
 .campeones_padre__sec1__text {
   background-color: rgb(230, 169, 169);
-  height: 214px;
+  height: 255px;
   padding: 5px;
   text-align: justify;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Basketball";
 }
 .campeones_padre__sec1__text--title {
   background-color: rgb(236, 154, 154);
   margin-bottom: 0px;
   text-align: center;
+  font-family: "Basketball";
+  font-size: 30px;
 }
 .campeones_padre__sec1__video {
   margin-left: 10px;
@@ -264,18 +269,56 @@
 .backg-sec1__text {
   text-align: justify;
   font-size: 14px;
+  font-family: "Basketball";
 }
 .backg-sec1__text--tit-bg1 {
-  font-family: "Docallisme";
+  font-family: "Basketball";
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.backg-sec1__text--tit-bg1-allstar {
+  font-family: "Basketball";
   font-size: 50px;
   text-align: center;
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 576px) {
+  .backg-sec1 {
+    width: 100%;
+    height: 630px;
+    margin: 0px;
+    margin-right: 0px;
+  }
+  .fond-mvp {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+  }
+  .back-sec1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .backg-sec1 {
+    width: 100%;
+    height: 630px;
+    margin-right: 0px;
+  }
+  .fond-mvp {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .back-sec1 {
+    width: 100%;
+  }
+}
 .titulo__section2 {
   font-family: "Docallisme";
   font-size: 50px;
   font-size: 40px;
+  font-family: "Basketball";
 }
 
 .historia {
@@ -298,11 +341,20 @@
 .info {
   height: 100%;
   width: 850px;
+  margin-left: 200px;
   background-color: white;
   border: 15px solid blue;
   text-align: justify;
 }
+.info__titulo {
+  font-family: "Basketball";
+}
 
+@media screen and (max-width: 576px) {
+  .info {
+    margin-left: 0px;
+  }
+}
 .campeones_padre__sec2 {
   background-color: blue;
   height: 300px;
@@ -318,10 +370,11 @@
   padding: 10px;
   text-align: justify;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Basketball";
 }
 .campeones_padre__sec2__text--title {
   text-align: center;
+  font-family: "Basketball";
 }
 .campeones_padre__sec2__video {
   margin-left: 10px;
@@ -357,10 +410,15 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 576px) {
+  .info {
+    margin-left: none;
+  }
+}
 .padre-premio {
   height: 900px;
   width: 100%;
-  background-color: rgb(209, 180, 100);
+  background-color: rgb(184, 2, 2);
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: 25% 25% 25%;
@@ -370,26 +428,109 @@
 .conteiner-premio {
   height: 700px;
   width: 380px;
-  background-color: rgba(23, 89, 232, 0.929);
+  background-color: rgb(184, 2, 2);
   padding: 40px;
   justify-content: center;
   margin-left: 30px;
   margin-top: 30px;
 }
 .conteiner-premio__tit-premio {
-  font-family: "Docallisme";
+  font-family: "Basketball";
   text-align: center;
   color: white;
 }
 
 .conteiner-tarj-mvp {
-  height: 830px;
+  height: 930px;
   width: 95%;
-  background-color: rgb(23, 132, 95);
+  background-color: rgb(184, 2, 2);
   margin-top: 30px;
   padding: 10px;
 }
 
+.nombres-mvp {
+  font-family: "Basketball";
+}
+
+@media screen and (max-width: 576px) {
+  .padre-premio {
+    background-color: red;
+    height: 2700px;
+    width: 100%;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "section" "section" "section" "footer";
+    display: block;
+  }
+  .conteiner-premio {
+    width: 90%;
+    margin-bottom: 50px;
+    padding-left: 55px;
+    margin-left: 25px;
+  }
+  .conteiner-tarj-mvp {
+    width: 100%;
+    height: 1950px;
+  }
+}
+.conteiner-videos-allstar {
+  background-color: grey;
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  display: inline-flex;
+}
+.conteiner-videos-allstar__videos-individuales {
+  background-color: greenyellow;
+  height: 430px;
+  width: 375px;
+  margin: 10px;
+}
+.conteiner-videos-allstar__videos-individuales__bg-video {
+  background-color: black;
+  width: 365px;
+  height: 295px;
+  margin: 5px;
+}
+.conteiner-videos-allstar__videos-individuales__bg-text {
+  background-color: black;
+  width: 365px;
+  height: 120px;
+  margin: 5px;
+  padding: 15px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Basketball";
+}
+
+@font-face {
+  font-family: "Basketball";
+  src: url(/Fonst/Basketball.otf);
+}
+@media screen and (max-width: 576px) {
+  .conteiner-videos-allstar {
+    height: 1350px;
+    width: 100%;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "div" "div" "div";
+  }
+}
+@media screen and (max-width: 390px) {
+  .conteiner-videos-allstar {
+    height: 1350px;
+    width: 100%;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "div" "div" "div";
+  }
+}
 .carousel-inner2 {
   height: 450px;
   justify-content: center;
@@ -405,7 +546,7 @@
 }
 
 .titulosSection3 {
-  font-family: "Docallisme";
+  font-family: "Basketball";
   font-size: 40px;
   font-display: 42px;
   margin-top: 30px;
@@ -435,12 +576,13 @@
   padding: 10px;
   text-align: justify;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Basketball";
 }
 .campeones_padre__sec3__text--title {
   text-align: center;
   background-color: rgb(139, 241, 139);
   margin-bottom: 0px;
+  font-family: "Basketball";
 }
 .campeones_padre__sec3__video {
   margin-left: 10px;
@@ -476,12 +618,44 @@
     margin-bottom: 5px;
   }
 }
+.conteiner-estadistica-allstar {
+  background-color: pink;
+  width: 100%;
+  height: 4200px;
+  padding: 30px;
+  padding-left: 90px;
+}
+
+@media screen and (max-width: 576px) {
+  .conteiner-estadistica-allstar {
+    width: 100%;
+  }
+  .imag-sec3-allstar {
+    width: 100%;
+    height: 100%;
+  }
+  .imag-sec3-allstar {
+    width: 0px;
+    height: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .conteiner-estadistica-allstar {
+    width: 100%;
+  }
+  .imag-sec3-allstar {
+    width: 0px;
+    height: 0px;
+    margin-right: 0px;
+  }
+}
 .formatofooter {
   text-align: center;
-  font-family: fantasy;
+  font-family: "Basketball";
 }
 .formatofooter--ir_a_inicio {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Basketball";
 }
 .formatofooter--aria_label {
   justify-content: center;

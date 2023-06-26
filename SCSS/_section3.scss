@@ -15,7 +15,7 @@
 }
 
 .titulosSection3{
-    font-family:"Docallisme" ;
+    font-family:"Basketball" ;
     font-size: 40px;
     font-display: 42px;
     margin-top: 30px;
@@ -46,11 +46,12 @@
                 padding: 10px;
                 text-align: justify;
                 font-size: 14px;
-                font-family:Arial, Helvetica, sans-serif;
+                font-family:"Basketball";
                 &--title {
                     text-align: center;
                     background-color: rgb(139, 241, 139) ;
                     margin-bottom: 0px;
+                    font-family: "Basketball";
                 }
                
             }
@@ -112,4 +113,40 @@
         
     } 
 
+}
+
+.conteiner-estadistica-allstar {
+    background-color: pink;
+    width: 100%;
+    height: 4200px;
+    padding: 30px;
+    padding-left: 90px;
+}
+@media screen and (max-width: 576px) {
+    .conteiner-estadistica-allstar {
+        width: 100%;
+
+    }
+    .imag-sec3-allstar {
+        width: 100%;
+        height: 100%;
+    }
+    .imag-sec3-allstar {
+        width: 0px;
+        height: 0px;
+        margin-right: 0px;
+        
+    }
+}
+@media screen and (max-width: 390px) {
+    .conteiner-estadistica-allstar {
+        width: 100%;
+
+    }
+    .imag-sec3-allstar {
+        width: 0px;
+        height: 0px;
+        margin-right: 0px;
+        
+    }
 }
