@@ -4,7 +4,7 @@
 }
 
 .carousel-inner{
-    height: 650px;
+    height: 550px;
    
 }
 
@@ -37,6 +37,9 @@
     .tamanio__cards-#{$i}{
         
     }
+}
+.padding-main__leyendas {
+    padding: 20px;
 }
 
 .card {

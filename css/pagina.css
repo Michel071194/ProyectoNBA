@@ -27,10 +27,18 @@
   padding: 5px;
   font-size: 110px;
 }
+.titulo__header--index {
+  font-size: 110px;
+}
 
+@media screen and (max-width: 460px) {
+  .titulo__header--index {
+    font-size: 50px;
+  }
+}
 .nav__style {
   justify-content: flex-end;
-  margin-right: 90px;
+  margin-right: 80px;
 }
 
 .nav:hover {
@@ -50,7 +58,7 @@
 }
 
 .carousel-inner {
-  height: 650px;
+  height: 550px;
 }
 
 .container-fluid {
@@ -93,6 +101,10 @@
 
 .conteiner__sec2-8 {
   margin-top: 25px;
+}
+
+.padding-main__leyendas {
+  padding: 20px;
 }
 
 .card__altura {
@@ -314,11 +326,19 @@
     width: 100%;
   }
 }
-.titulo__section2 {
-  font-family: "Docallisme";
-  font-size: 50px;
-  font-size: 40px;
-  font-family: "Basketball";
+.conteiner__actualidad {
+  width: 100%;
+  height: 600px;
+  background-color: greenyellow;
+  padding-left: 50px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-areas: "div" "div" "div" "div";
+}
+.conteiner__actualidad__tarjetas-actualidad {
+  margin-top: 10px;
 }
 
 .historia {
@@ -380,6 +400,12 @@
   margin-left: 10px;
 }
 
+.bg-warriors {
+  background-color: skyblue;
+  height: 290px;
+  width: 350px;
+}
+
 @media screen and (max-width: 576px) {
   .campeones_padre__sec2 {
     background-color: rgb(2, 53, 125);
@@ -409,6 +435,12 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
+  .bg-warriors {
+    height: 220px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 49px;
+  }
 }
 @media screen and (max-width: 576px) {
   .info {
@@ -416,7 +448,7 @@
   }
 }
 .padre-premio {
-  height: 900px;
+  height: 1000px;
   width: 100%;
   background-color: rgb(184, 2, 2);
   display: grid;
@@ -479,6 +511,7 @@
   background-color: grey;
   width: 100%;
   height: 450px;
+  margin-left: 15px;
   align-items: center;
   display: inline-flex;
 }
@@ -531,20 +564,34 @@
     grid-template-areas: "div" "div" "div";
   }
 }
-.carousel-inner2 {
-  height: 450px;
-  justify-content: center;
-  padding: 40px 10px 30px 10px;
+.titulo__section2 {
+  font-family: "Docallisme";
+  font-size: 50px;
+  font-size: 40px;
+  font-family: "Basketball";
 }
 
-.conteinerVideos {
+.conteiner-videos__index {
   background-color: black;
   height: 350px;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  grid-template-areas: "div div";
   border: blue solid 7px;
 }
 
+@media screen and (max-width: 460px) {
+  .conteiner-videos__index {
+    background-color: blue;
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: "div" "div";
+  }
+}
 .titulosSection3 {
   font-family: "Basketball";
   font-size: 40px;
@@ -590,7 +637,7 @@
 
 @media screen and (max-width: 576px) {
   .campeones_padre__sec3 {
-    background-color: rgb(10, 125, 10);
+    background-color: rgb(54, 193, 54);
     width: 100%;
     height: 820px;
     margin-left: 5px;
