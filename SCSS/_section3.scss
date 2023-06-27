@@ -6,16 +6,14 @@
     
 }
 
-.conteiner-videos__index {
-    background-color: black;
-    height: 350px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 100%;
-    grid-template-areas: 
-    "div div";
-    border: blue solid 7px;
+.sec3__index{
+    height: 250px;
+    padding-top: 50px;
+}
+@media screen and (max-width:460px){
+    .sec3__index{
+        height: 530px;
+    }
 }
 @media screen and (max-width:460px) {
     .conteiner-videos__index {
