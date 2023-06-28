@@ -276,21 +276,36 @@
     
 }
 
-.back-sec1 {
+.sec1__mvp {
     width: 100%;
-    
+    padding: 15px;
+    padding-top: 30px;
+    height: 350px;
+}
+
+@media screen and (max-width: 576px) {
+    .sec1__mvp {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .sec1__mvp {
+        height: 700px;
+    }
 }
 
 .fond-mvp {
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .backg-sec1 {
+    background-color: rgba(185, 11, 11, 0.715);
     width: 95%;
     height: 300px;
-    background-color: rgba(185, 11, 11, 0.715);
-    margin: 0px 15px 20px 30px;
-    padding: 5px;
+    margin: 0px 0px 20px 30px;
+    padding: 10px;
+    
 
     &__text {
         text-align: justify;
