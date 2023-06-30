@@ -117,6 +117,25 @@
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-template-areas: "header header" "div     div" "section section" "section section" "section section" "section section";
 }
+.equipos--pag_de5 {
+  margin-bottom: 240px;
+  margin-left: 40px;
+}
+.equipos--pag_de5--img_pelicans {
+  margin-top: 55px;
+}
+.equipos--pag_de5--img_wolves {
+  margin-top: 20px;
+}
+.equipos--pag_de5--img_jazz_kings {
+  margin-top: 20px;
+}
+.equipos--pag_de5--img_hawks {
+  margin-top: -15px;
+}
+.equipos--pag_de5--img_pancers {
+  margin-top: 25px;
+}
 .equipos__modelo {
   margin-left: 10px;
   margin-right: 10px;
@@ -187,6 +206,64 @@
 }
 .img__sections--rokets {
   background-color: rgba(0, 0, 0, 0.589);
+}
+.img__sections--Jazz {
+  background-color: yellow;
+}
+.img__sections--pelicans {
+  background-color: grey;
+}
+.img__sections--wolves {
+  background-color: white;
+}
+.img__sections--kings {
+  background-color: grey;
+}
+.img__sections--portland {
+  background-color: rgb(234, 61, 61);
+}
+.img__sections--celtics {
+  background-color: green;
+}
+.img__sections--hornets {
+  background-color: rgb(82, 196, 224);
+}
+.img__sections--bulls {
+  background-color: white;
+}
+.img__sections--76ers {
+  background-color: white;
+}
+.img__sections--pistons {
+  background-color: rgb(101, 101, 214);
+}
+.img__sections--heat {
+  background-color: rgb(233, 104, 104);
+}
+.img__sections--bucks {
+  background-color: rgb(42, 125, 42);
+}
+.img__sections--cavaliers {
+  background-color: rgb(192, 66, 66);
+}
+.img__sections--nets {
+  background-color: grey;
+}
+.img__sections--hawks {
+  background-color: rgb(247, 241, 241);
+  padding: 0px;
+}
+.img__sections--pancers {
+  background-color: rgb(232, 232, 154);
+}
+.img__sections--raptors {
+  background-color: rgb(254, 4, 4);
+}
+.img__sections--magic {
+  background-color: rgb(7, 200, 210);
+}
+.img__sections--wizards {
+  background-color: white;
 }
 
 .campeones_padre {
