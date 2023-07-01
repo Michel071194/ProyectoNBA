@@ -593,6 +593,11 @@
   font-family: "Basketball";
 }
 
+.texto_mvp {
+  font-size: 14px;
+  text-align: justify;
+}
+
 .tarjetas__mvp2 {
   margin-top: 10px;
 }
