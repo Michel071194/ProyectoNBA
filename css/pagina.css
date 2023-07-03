@@ -112,29 +112,15 @@
 }
 
 .equipos {
+  width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  grid-template-areas: "header header" "div     div" "section section" "section section" "section section" "section section";
+  grid-template-areas: "section section" "section section" "section section" "section section" "section section";
 }
 .equipos--pag_de5 {
-  margin-bottom: 240px;
+  margin-top: 200px;
   margin-left: 40px;
-}
-.equipos--pag_de5--img_pelicans {
-  margin-top: 55px;
-}
-.equipos--pag_de5--img_wolves {
-  margin-top: 20px;
-}
-.equipos--pag_de5--img_jazz_kings {
-  margin-top: 20px;
-}
-.equipos--pag_de5--img_hawks {
-  margin-top: -15px;
-}
-.equipos--pag_de5--img_pancers {
-  margin-top: 25px;
 }
 .equipos__modelo {
   margin-left: 10px;
@@ -164,9 +150,14 @@
     margin-bottom: 0px;
     display: inline-block;
   }
+  .equipos--pag_de5 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media screen and (max-width: 390px) {
   .equipos {
+    width: 100%;
     grid-template-columns: 100%;
     grid-template-areas: "header" "div" "section" "section" "section" "section" "section" "section" "section" "section";
     margin-top: 0%;
@@ -430,6 +421,7 @@
 }
 .conteiner__actualidad__tarjetas-actualidad {
   margin-top: 30px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 460px) {
@@ -553,8 +545,18 @@
   }
 }
 .padre-premio {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(184, 2, 2);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-areas: "section div" "section div" "section div";
+}
+.padre-premio--padre-premio-otros {
   height: 1200px;
   width: 100%;
+  padding-bottom: 0px;
   background-color: rgb(184, 2, 2);
   display: grid;
   grid-template-columns: 40% 60%;
@@ -605,7 +607,7 @@
 @media screen and (max-width: 576px) {
   .padre-premio {
     background-color: red;
-    height: 2700px;
+    height: 2800px;
     width: 100%;
     padding: 0px;
     display: grid;

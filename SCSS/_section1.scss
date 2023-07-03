@@ -49,38 +49,24 @@
 }
 
 .equipos {
-    
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas: 
-    "header header"
-    "div     div"
     "section section"
     "section section"
     "section section"
-    "section section";
+    "section section"
+    "section section"
+    ;
+    
     
     &--pag_de5 {
-        margin-bottom: 240px;
+        
+        margin-top: 200px;
         margin-left: 40px;
-        &--img_pelicans {
-            margin-top: 55px;
-        }
-        &--img_wolves {
-            margin-top: 20px;
-        }
-        &--img_jazz_kings {
-            margin-top: 20px;
-        }
-        &--img_hawks {
-            
-            margin-top: -15px;
-        }
-        &--img_pancers {
-            
-            margin-top: 25px;
-        }
+         
     }
     &__modelo {
         margin-left: 10px;
@@ -123,12 +109,16 @@
         margin-bottom: 0px;
         display: inline-block;
 
-
+        &--pag_de5 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
         
         
         
     }
     @media screen and (max-width:390px) {
+        width: 100%;
         grid-template-columns: 100%;
         grid-template-areas:
         "header"
@@ -183,11 +173,21 @@
         &--rokets {
             background-color: rgba(0, 0, 0, 0.589);
         } 
-        &--Jazz {background-color: yellow;} 
-        &--pelicans {background-color: grey;} 
-        &--wolves {background-color: white;} 
-        &--kings {background-color: grey;} 
-        &--portland {background-color: rgb(234, 61, 61);} 
+        &--Jazz {
+            background-color: yellow;
+        } 
+        &--pelicans {
+            background-color: grey;
+        
+        } 
+        &--wolves {
+            background-color: white;
+        } 
+        &--kings {
+            background-color: grey;
+        } 
+        &--portland {
+            background-color: rgb(234, 61, 61);} 
         &--celtics {
             background-color: green;
         }
